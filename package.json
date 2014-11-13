@@ -1,6 +1,6 @@
 {
   "name": "cryptic-theme",
-  "version": "0.6.0-softcart",
+  "version": "0.6.1-softcart-integration",
   "devDependencies": {
     "grunt": "^0.4",
     "grunt-contrib-watch": "^0.5",

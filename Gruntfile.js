@@ -8,7 +8,6 @@ module.exports = function(grunt) {
   ],
     jsFiles = [
     'Gruntfile.js',
-    'build.js',
     'scripts/**/*.js'
   ],
     filesToArchive = [
