@@ -6,7 +6,7 @@
     "isDesktop": true,
     "isMobile": true,
     "defaultLanguage": "en-US",
-    "version": "0.4.0-style-changes"
+    "version": "0.5.0-pagetype"
   },
   "settings": {
     "bannerImageEnabled": true,
@@ -15,7 +15,77 @@
     "listProductShortDesc": false,
     "listProductCode": false
   },
-  "pageTypes": [],
+  "pageTypes": [
+    {
+      "id": "brand-focus",
+      "title": "Brand Focus",
+      "entityType": "webpage",
+      "documentType": "web_page",
+      "template": "brand-focus",
+      "userCreatable": true,
+      "zones": [
+        {
+          "id": "brand-focus-header",
+          "rows": [
+            {
+              "columns": [
+                {
+                  "span": 12,
+                  "widgets": [
+                    {
+                      "definitionId": "cms-image",
+                      "config": {
+                        "borderStyle": "None",
+                        "imageHeight": "auto",
+                        "imageSize": "maintain",
+                        "imageSource": "externalUrl",
+                        "imageExternalUrl": "/resources/images/brands/example-logo.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brand-focus-content",
+          "rows": [
+            {
+              "columns": [
+                {
+                  "span": 6,
+                  "widgets": [
+                    {
+                      "definitionId": "html",
+                      "config": {
+                        "body": "<div class=\"brand-focus-text\">A well-respected brand for decades, lorem ipsum dolor se amet.</div>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "span": 6,
+                  "widgets": [
+                    {
+                      "definitionId": "cms-image",
+                      "config": {
+                        "borderStyle": "None",
+                        "imageHeight": "auto",
+                        "imageSize": "maintain",
+                        "imageSource": "externalUrl",
+                        "imageExternalUrl": "/resources/images/brands/example-graphic.jpg"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "widgets": [
     {
       "id": "pin_this",
