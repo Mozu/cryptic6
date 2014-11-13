@@ -6,7 +6,7 @@
     "isDesktop": true,
     "isMobile": true,
     "defaultLanguage": "en-US",
-    "version": "0.5.0-pagetype"
+    "version": "0.6.0-softcart"
   },
   "settings": {
     "bannerImageEnabled": true,
