@@ -1,6 +1,6 @@
 {
   "name": "cryptic-theme",
-  "version": "0.3.0-dropzone",
+  "version": "0.4.0-style-changes",
   "devDependencies": {
     "grunt": "^0.4",
     "grunt-contrib-watch": "^0.5",

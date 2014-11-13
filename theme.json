@@ -6,11 +6,14 @@
     "isDesktop": true,
     "isMobile": true,
     "defaultLanguage": "en-US",
-    "version": "0.3.0-dropzone"
+    "version": "0.4.0-style-changes"
   },
   "settings": {
     "bannerImageEnabled": true,
-    "bannerImage": "../resources/images/cryptic-header.png"
+    "bannerImage": "../resources/images/cryptic-header.png",
+    "listProductThumbSize": 300,
+    "listProductShortDesc": false,
+    "listProductCode": false
   },
   "pageTypes": [],
   "widgets": [
