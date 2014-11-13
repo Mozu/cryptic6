@@ -1,12 +1,17 @@
 {
   "about": {
-    "name": "Your Theme",
+    "name": "Cryptic Theme",
+    "author": "You",
     "extends": "core6",
     "isDesktop": true,
     "isMobile": true,
-    "version": "0.1.0"
+    "defaultLanguage": "en-US",
+    "version": "0.1.1-banner"
   },
-  "settings": {},
+  "settings": {
+    "bannerImageEnabled": true,
+    "bannerImage": "../resources/images/cryptic-header.png"
+  },
   "pageTypes": [],
   "widgets": []
 }
