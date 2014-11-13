@@ -6,12 +6,46 @@
     "isDesktop": true,
     "isMobile": true,
     "defaultLanguage": "en-US",
-    "version": "0.1.2-banner-ui"
+    "version": "0.2.0-widget"
   },
   "settings": {
     "bannerImageEnabled": true,
     "bannerImage": "../resources/images/cryptic-header.png"
   },
   "pageTypes": [],
-  "widgets": []
+  "widgets": [
+    {
+      "id": "pin_this",
+      "displayName": "Pin This",
+      "displayTemplate": "catalog/pin-this",
+      "defaultConfig": {
+        "shape": "round",
+        "size": "small"
+      },
+      "editViewFields": [
+        {
+          "name": "shape",
+          "fieldLabel": "Shape",
+          "xtype": "mz-input-dropdown",
+          "store": [
+            "round",
+            "rectangular"
+          ]
+        },
+        {
+          "name": "size",
+          "fieldLabel": "Size",
+          "xtype": "mz-input-dropdown",
+          "store": [
+            "small",
+            "large"
+          ]
+        }
+      ],
+      "icon": "/resources/admin/widgets/pinterest.png",
+      "validPageTypes": [
+        "product"
+      ]
+    }
+  ]
 }
