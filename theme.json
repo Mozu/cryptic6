@@ -6,7 +6,7 @@
     "isDesktop": true,
     "isMobile": true,
     "defaultLanguage": "en-US",
-    "version": "0.2.0-widget"
+    "version": "0.3.0-dropzone"
   },
   "settings": {
     "bannerImageEnabled": true,
